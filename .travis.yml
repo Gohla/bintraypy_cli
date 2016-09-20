@@ -10,6 +10,8 @@ script:
 deploy:
   provider: pypi
   user: Gohla
+  password:
+    secure: IvITwERCG/jRhd3tvLLPdvaZUZi4j6RXxgKUqghJz6cqWT6h02Foiop/iRMkNOp2NEW1csEwXZwWVnnSW2wB5dPNH1ynUgy3XFegOP/3/0E+yZ2lPtYtkABZR+0kc+wHXqxUyrzsLd0G44YI+9lZ+Ex0rtwjLU43lR291diCqpj+lRZ0aBQuNVvP50vRjj8Rzd+9zt6afS81S1PZ9JCEP4rdy4MFYll5sKf92sCNyuVbgD9bHlLjKXtTfd1faiNLp1Q4awRem8dYCr5awARhVDkfWNkJrCQxgY3qhL1SHH0Cb5diJorrOcMGFdljxSwFaGKH/KKdvEPL9YHIEeyMWwzYAWDSYin1B9btFFoOKwOOm2bBEqwwyi5a+PLlbO3cBbV9HNYX7V4QI1/SLfndwwbNtZkmlLk0/nhGF4PdGBmx3msycp1YJQZI+ezuzcMFdF/JpA9LLFCbVFLHovvWtGiPlnchMu5IknUO7XrVxxcUB9xr5xxKci6pW5iOzHMAL2vx/8knkn6ZHvis36/1qtKmqtMMBx7o/CVpPo1kKxCa9aWpmYvRxTPZDNbtous4S/3tAzuSKgXrpBi+JMxa/YbqJJjHrSdATkFvMvn8UWCRDbm6aacgzT8IyrHniPsFA1FpEzIA7uSg7w0+y7dUCkS2fkmudasu1PQuidenIA4=
   on:
     tags: true
     distributions: sdist bdist_wheel
